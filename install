@@ -19,9 +19,9 @@ fi
 
 if [ ! -f "ffmpeg" ]; then
     if [ $WGET_EXISTS ]; then
-        wget "https://github.com/XniceCraft/ffmpeg-colab/releases/download/6.0/ffmpeg" -O ffmpeg
+        wget "https://github.com/BtbN/FFmpeg-Builds/releases/download/latest/ffmpeg-master-latest-linux64-lgpl.tar.xz" -O ffmpeg
     elif [ $CURL_EXISTS ]; then
-        curl -o ffmpeg "https://github.com/XniceCraft/ffmpeg-colab/releases/download/6.0/ffmpeg"
+        curl -o ffmpeg "https://github.com/BtbN/FFmpeg-Builds/releases/download/latest/ffmpeg-master-latest-linux64-lgpl.tar.xz"
     fi
 fi
 
